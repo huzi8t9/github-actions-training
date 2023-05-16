@@ -16,7 +16,7 @@ jobs:
         id: hello-action
         uses: ./test-action
         with:
-          who-to-greet: '@wulfland'
+          who-to-greet: '@huzi8t9'
 
       - name: Output time set in the container
         run: echo "The time was ${{ steps.hello-action.outputs.time }} when the action said hello"

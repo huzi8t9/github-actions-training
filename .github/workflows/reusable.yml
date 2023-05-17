@@ -7,7 +7,7 @@ on:
         description: 'The person to greet'
         type: string
         required: true
-        default: @huzi8t9
+        default: '@huzi8t9'
     outputs:
       current-time:
         description: 'The time when greeting.'
